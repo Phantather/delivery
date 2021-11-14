@@ -1,0 +1,29 @@
+.questions {
+  padding: 50px 0;
+  &__content {
+    display: flex;
+    justify-content: center;
+  }
+  &__title {
+    @include fonts(normal, normal, 61px, 73px);
+    margin-bottom: 70px;
+    text-align: center;
+  }
+  &__descr {
+    @include fonts(normal, normal, 16px, 19px);
+    text-align: center;
+    color: #A6A6A6;
+    margin-bottom: 10px;
+  }
+  &__form {
+    border-bottom: 1px solid black;
+    padding-bottom: 28px;
+    &-select {
+      @include fonts(normal, normal, 20px, 30px);
+      width: 750px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+}

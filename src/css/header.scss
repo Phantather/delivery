@@ -1,0 +1,14 @@
+.header {
+  padding: 25px 0;
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__link {
+    @include fonts(normal, normal, 15px, 22px);
+    color: #000;
+    margin-right: 30px;
+  }
+}

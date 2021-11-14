@@ -1,0 +1,14 @@
+.network {
+  padding-bottom: 100px;
+  &__content {
+    text-align: center;
+  }
+  &__descr {
+    @include fonts(normal, normal, 16px, 19px);
+    color: #A6A6A6
+  }
+  &__title {
+    @include fonts(normal, normal, 61px, 73px);
+    margin: 6px 0 90px;
+  }
+}

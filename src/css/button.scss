@@ -1,0 +1,17 @@
+.btn {
+  padding: 12px 32px;
+  background-color: #000;
+  border-radius: 25px;
+  color: #fff;
+  border: 2px solid #000000;
+  outline: none;
+  cursor: pointer;
+  transition: .6s;
+  &:hover {
+    padding: 12px 32px;
+    background-color: #fff;
+    border: 2px solid #000000;
+    color: #000;
+    transition: .6s;
+  }
+}

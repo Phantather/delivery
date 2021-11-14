@@ -1,0 +1,19 @@
+.expanding {
+  padding: 50px 0;
+  &__block {
+    text-align: center;
+  }
+  &__title {
+    @include fonts(normal, normal, 61px, 73px);
+    margin-bottom: 23px;
+  }
+  &__subtitle {
+    @include fonts(normal, normal, 16px, 24px);
+    color: #212529;
+  }
+  &__descr{
+    @include fonts(normal, normal, 16px, 24px);
+    margin: 12px 0 25px;
+    color: #212529;
+  }
+}

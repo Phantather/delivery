@@ -1,0 +1,140 @@
+.payment {
+  padding: 70px 0;
+  background-color: #FAFAFA;
+
+  &__title {
+    @include fonts(normal, normal, 61px, 73px);
+    margin-bottom: 23px;
+  }
+
+  &__decr {
+    @include fonts(normal, normal, 16px, 24px);
+    color: #212529;
+
+  }
+
+  &__content {
+    &-title {
+      @include fonts(normal, normal, 20px, 24px);
+      margin: 30px 0 19px;
+    }
+  }
+
+  &__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 31px;
+  }
+
+  &__summary {
+    width: 400px;
+    padding: 20px 18px;
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+
+    &-block {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &-select {
+      @include fonts(normal, 500, 18px, 5px);
+      border: none;
+      outline: none;
+      background-color: transparent;
+      cursor: pointer;
+    }
+
+    &-price {
+      @include fonts(normal, 500, 18px, normal);
+    }
+  }
+
+  &__select {
+    margin: 23px 0;
+    padding: 0 18px;
+
+    &-link {
+      @include fonts(normal, 500, 16px, normal);
+      color: #000;
+      transition: 0.6s;
+
+      &:hover {
+        color: #A6A6A6;
+      }
+    }
+  }
+
+  &__contact {
+    width: 400px;
+    height: 160px;
+    border: 1px solid #E4E4E4;
+    border-radius: 10px;
+    position: relative;
+    background-color: #fff;
+
+    &::before {
+      content: "";
+      width: 90%;
+      height: 1px;
+      background-color: #E4E4E4;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    &-block {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 18px;
+    }
+
+    &-text {
+      @include fonts(normal, normal, 18px, 14px);
+      color: #686868;
+      margin-bottom: 10px;
+    }
+
+    &-link {
+      @include fonts(normal, normal, 14px, 16px);
+      color: #000;
+    }
+
+    &-change {
+      @include fonts(normal, normal, 14px, 16px);
+      color: #000;
+    }
+  }
+
+
+
+  &__form {
+    width: 400px;
+    height: 177px;
+    border: 1px solid #E4E4E4;
+    border-radius: 10px;
+    background-color: #fff;
+
+    &-block {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 18px;
+      border-bottom: 1px solid #E4E4E4;
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+    &-text {
+      @include fonts(normal, normal, 18px, 14px);
+    }
+    &-price {
+      @include fonts(normal, 500, 16px, normal);
+    }
+  }
+}
+
+

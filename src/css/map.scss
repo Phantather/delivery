@@ -1,0 +1,22 @@
+.map {
+  padding-bottom: 70px;
+  &__block {
+    display: flex;
+    justify-content: center;
+    column-gap: 63px;
+    margin-bottom: 40px;
+  }
+  &__info {
+    display: flex;
+    align-items: center;
+  }
+  &__check {
+    margin-right: 11px;
+  }
+  &__descr {
+    @include fonts(normal, normal, 16px, 24px);
+  }
+  &__image {
+    width: 100%;
+  }
+}

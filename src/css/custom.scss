@@ -1,0 +1,16 @@
+.custom {
+  padding: 80px 0 100px;
+  &__content {
+    display: flex;
+    column-gap: 118px;
+  }
+  &__title {
+    @include fonts(normal, normal, 61px, 73px);
+    margin-top: 21px;
+  }
+  &__descr {
+    @include fonts(normal, normal, 16px, 24px);
+    margin: 23px 0 16px;
+    color: #212529;
+  }
+}

@@ -1,0 +1,34 @@
+@import "mixins";
+@import "button";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@import "header";
+@import "hero";
+@import "map";
+@import "network";
+@import "simple";
+@import "custom";
+@import "payment";
+@import "expanding";
+@import "questions";
+@import "request";
+@import "footer";

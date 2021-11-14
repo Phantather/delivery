@@ -1,0 +1,20 @@
+.hero {
+  padding: 55px 0;
+  &__content {
+    text-align: center;
+  }
+  &__info{
+    @include fonts(normal, normal, 16px, 19px);
+    color: #A6A6A6;
+    margin-bottom: 5px;
+  }
+  &__title {
+    @include fonts(normal, normal, 64px, 77px);
+    color: #000;
+  }
+  &__descr {
+    @include fonts(normal, normal, 16px, 24px);
+    color: #000;
+    margin: 23px 0 36px;
+  }
+}
